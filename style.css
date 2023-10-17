@@ -6,6 +6,10 @@ div {
     margin: -1.7px;
 }
 
+body {
+    background-color: rgb(180, 121, 235);
+}
+
 .div2 {
     display: inline;
     border: 1px outset black;
