@@ -1,8 +1,13 @@
+* {
+    text-align: center;
+}
+
 div {
     display: inline-block;
     border: 1px solid white;
     width: 200px;
     height: 200px;
+    border-collapse: collapse;
     margin: -1.7px;
 }
 
@@ -40,10 +45,6 @@ body {
     font-weight: bold;
     font-size: 40px;
     color: yellow;
-}
-
-* {
-    text-align: center;
 }
 
 .vermelho {
