@@ -1,0 +1,73 @@
+header, footer{
+    padding: 10px 20px;
+    margin: 15px 0;
+}
+
+header{
+    background-color:rgb(16, 153, 237);
+    box-shadow: 5px 5px 10px rgb(0, 102, 166);
+}
+
+footer{
+    background-color:rgb(5, 130, 208);
+    box-shadow: 5px 5px 10px rgb(1, 88, 143);
+}
+
+p{
+    color: #f3f3f3;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header, footer, aside, .main, .item{
+    border-radius: 10px;
+}
+
+.principal{
+    width: 50%;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* contem a main e os itens */
+.main{
+    display: flex;
+    padding: 0 20px;
+    flex-direction: column;
+    background-color: rgb(59, 201, 186);
+    box-shadow: 5px 5px 10px rgb(6, 105, 95);
+}
+
+.lista{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-lista{
+    display: flex;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(10, 120, 109);
+    box-shadow: 5px 5px 10px rgb(1, 74, 67);
+}
+
+aside{
+    padding: 0 40px;
+    background-color: rgb(240, 105, 202);
+    box-shadow: 5px 5px 10px rgb(156, 14, 116);
+}
+
+
+
